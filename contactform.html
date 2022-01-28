@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Contact Directory | Create</title>
+</head>
+<body>
+    <div class="main-body">
+        <div id="header">
+            <h1>Contact Directory</h1>
+        </div>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Contacts</a></li>
+            <li><a href="#">Create</a></li>
+        </ul>
+        <form action="" id="createcontact" method="POST">
+            
+            <div class="form-group" >
+                <p>Name</p>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group" >
+                <p>Phone</p>
+                <input type="text" name="phone" id="phone" placeholder="Enter your Phone Number">
+            </div>
+            <div class="form-group" >
+                <p>Email</p>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+            </div>
+            <br>
+            <div class="form-group">
+                <div class="link-button">
+                <button type="submit" class="page-button">Save</button>
+            </div>
+            </div>
+        </form>
+        <br>
+        <div class="link-button">
+
+            <a href="index.html" title="View Contacts" class="page-button">View Contacts</a>
+        </div>
+    </div>
+    <script src="./js/contactdir.js"></script>
+</body>
+</html>
